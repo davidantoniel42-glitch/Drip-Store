@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProductCard from "./AbaProdutos/productcardlist";
+import ProductCard from "./AbaProdutos/Productcardlist";
 
 const RelatedProducts = ({ currentProduct, allProducts }) => {
   const related = allProducts
