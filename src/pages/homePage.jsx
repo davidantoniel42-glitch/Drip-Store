@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import Section from "../components/Sections";
+import Section from "../components/section";
 import Hero from "../components/hero";
 import ProductListing from "../components/HomePage/productListing";
 import { IoShirtOutline } from "react-icons/io5";
@@ -190,7 +190,7 @@ const HomePage = () => {
           )}
         </div>
 
-        <Section>
+        <section>
           <div className="flex justify-center gap-6 flex-wrap px-4 md:px-0 mt-10">
             {categoryIcons.map((item, index) => (
               <div
@@ -221,15 +221,15 @@ const HomePage = () => {
               </button>
             </div>
           )}
-        </Section>
+        </section>
 
-        <Section>
+        <section>
           {/* Passamos o 'filteredProducts' calculado pelo useMemo */}
           <ProductListing products={filteredProducts} />
-        </Section>
+        </section>
       </div>
 
-      <Section className="bg-white py-16 px-4 md:px-20 lg:px-32 flex flex-col md:flex-row items-center gap-12 relative">
+      <section className="bg-white py-16 px-4 md:px-20 lg:px-32 flex flex-col md:flex-row items-center gap-12 relative">
         <div className="absolute left-1/2 -translate-x-1/2 md:left-44 md:translate-x-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full bg-gradient-to-t from-white to-purple-200/40 z-0"></div>
         <div className="flex-1 z-10">
           <img
@@ -260,7 +260,7 @@ const HomePage = () => {
             Ver Oferta
           </button>
         </div>
-      </Section>
+      </section>
     </>
   );
 };
