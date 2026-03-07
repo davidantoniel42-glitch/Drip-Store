@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../contexts/cartContext";
 
-const CartDropdown = ({ isOpen, onClose }) => {
+const CartDropDown = ({ isOpen, onClose }) => {
   const { cartItems, clearCart } = useCart();
   const navigate = useNavigate();
   const dropdownRef = useRef(null);
@@ -108,4 +108,4 @@ const CartDropdown = ({ isOpen, onClose }) => {
   );
 };
 
-export default CartDropdown;
+export default CartDropDown;
