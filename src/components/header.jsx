@@ -4,7 +4,7 @@ import SearchBar from "./searchBar";
 import AuthLinks from "./authLinks";
 import MainNav from "./mainNave";
 import CartIcon from "./cartIcon";
-import CartDropdown from "./cartDropdown";
+import CartDropDown from "./cartDropDown";
 
 const Header = () => {
   // Sua lógica de estado e controle do carrinho permanece perfeita.
@@ -49,7 +49,7 @@ const Header = () => {
       </div>
 
       {/* O Dropdown do carrinho não precisa de alterações. */}
-      <CartDropdown isOpen={isCartOpen} onClose={handleCloseCart} />
+      <CartDropDown isOpen={isCartOpen} onClose={handleCloseCart} />
     </header>
   );
 };
