@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Productcardlist from "./AbaProdutos/Productcardlist";
+import ProductCardList from "./AbaProdutos/productCardlist";
 
 const RelatedProducts = ({ currentProduct, allProducts }) => {
   const related = allProducts
@@ -26,7 +26,7 @@ const RelatedProducts = ({ currentProduct, allProducts }) => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {related.map((product) => (
-          <Productcardlist
+          <ProductCardList
             key={product.id}
             id={product.id}
             image={product.image}
