@@ -32,8 +32,8 @@ Interface principal da loja com:
 
 ## PARA EXECUTAR:
 
-CD -
-NPM RUN DEV
+npm install
+npm run dev
 
 Melhorias futuras
 
