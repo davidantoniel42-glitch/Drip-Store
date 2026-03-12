@@ -5,7 +5,13 @@ Projeto de e-commerce desenvolvido em **React**, utilizando **Vite** e **Tailwin
 A aplicação simula uma loja virtual com listagem de produtos, filtros por categoria, destaque de ofertas e navegação entre páginas.
 
 ---
-
+src/
+ ├ assets
+ ├ components
+ ├ contexts
+ ├ pages
+ ├ App.jsx
+ └ main.jsx
 ## 🚀 Tecnologias utilizadas
 
 - ⚛ React
