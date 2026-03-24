@@ -1,4 +1,5 @@
 # 🛍️ Digital Store
+<img width="1376" height="736" alt="image" src="https://github.com/user-attachments/assets/b2c8e3e0-3011-433b-b2ca-ec4566657758" />
 
 Projeto de e-commerce desenvolvido em **React**, utilizando **Vite** e **TailwindCSS** para construção de uma interface moderna e responsiva.
 
